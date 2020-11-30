@@ -1,0 +1,21 @@
+package com.luv2code.springdemo;
+
+public class BikeCoach implements Coach {
+
+	private FortuneService fortuneService;
+	
+	public BikeCoach(FortuneService theForuneService) {
+		fortuneService=theForuneService;
+	}
+	
+	@Override
+	public String getDailyWorkout() {
+		return "Ride to the forest and runn there";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return fortuneService.getFortune();
+	}
+
+}

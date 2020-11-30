@@ -1,0 +1,16 @@
+127.0.0.1 - - [30/Nov/2020:11:47:39 +0100] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:11:47:40 +0100] "GET /spring-mvc-demo/ HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:11:47:43 +0100] "GET /spring-mvc-demo/hello/showForm HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:11:47:51 +0100] "GET /spring-mvc-demo/hello/processFormVersionThree?studentName=Kacper HTTP/1.1" 200 165
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:11:48:03 +0100] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 656
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:11:48:23 +0100] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 192
+127.0.0.1 - - [30/Nov/2020:12:21:46 +0100] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:21:47 +0100] "GET /spring-mvc-demo/ HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:21:52 +0100] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:22:10 +0100] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 231
+127.0.0.1 - - [30/Nov/2020:12:41:23 +0100] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:41:24 +0100] "GET /spring-mvc-demo/ HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:41:28 +0100] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 1567
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:41:53 +0100] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:47:37 +0100] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [30/Nov/2020:12:49:57 +0100] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 316
